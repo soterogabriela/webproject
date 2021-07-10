@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,wght@1,200&display=swap');
+
+*
+{
+    margin: 0em;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Literata', serif;
+}
+.banner
+{
+    position: relative;
+    min-height: 100vh;
+    background: url(projectimage.jpg);
+    background-size:cover;
+    background-position:right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner h1
+{
+    font-size: 1.4em;
+    color: #fff;
+    font-weight: 800;
+    line-height: 1.5em;
+    margin-left: 28mm;
+    letter-spacing: 4px;
+    
+}
+
+.banner h2
+{
+    font-size: 35px;
+    color: #494949;
+    font-weight: 800;
+    line-height: 3em;
+    margin-left: 25mm;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.banner h3
+{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10mm;
+    line-height: 1em;
+    display: flex;
+
+}
+
+.btn /*about me do home*/
+{
+    position: relative;
+    background: #49494981;
+    display: inline-block;
+    color: #fff;
+    margin-top: 150px;
+    padding: 10px 30px;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;  
+}
+header /*contact do menu*/
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    color: #fff;
+    font-size: 25px;
+
+}
+header .logo /*potfolio do topo esquerdo*/
+{
+    color: #811870;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-weight: bolder;
+    letter-spacing: 10px;
+   
+
+}
+.heading
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color:#4949499d;
+}
+.heading h1
+{
+    font-weight: 600;
+    color:#4949499d;
+    font-size: 0px;
+}
+.content /*textinho*/
+{
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    color:#111;
+    margin-left: 10mm;
+    
+}
+.contentBx
+{
+    padding-right: 0px;
+}
+.contentBx h3 /*meu nome é gabriela*/
+{
+ font-size: 30px;
+ margin-bottom: 10px;   
+ color: #811870;
+}
+.contentBx h4
+{
+    font-size: 30px;
+    margin-bottom: 10px;   
+    color: #811870;
+
+}
+.contentBx h5
+{
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    color:#111;
+    margin-left: 10mm;
+}
+.contact h3
+{
+font-size: 30px;
+color: #811870;
+}
+.w50
+{
+min-width: 10%;
+}
+img
+{
+max-width: 100%;
+margin-left: 2mm;
+
+}
