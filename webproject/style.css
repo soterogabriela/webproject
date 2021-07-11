@@ -25,8 +25,8 @@
     font-size: 1.4em;
     color: #fff;
     font-weight: 800;
-    line-height: 1.5em;
-    margin-left: 28mm;
+    line-height: 0.7em;
+    margin-left: 10mm;
     letter-spacing: 4px;
     
 }
@@ -36,24 +36,24 @@
     font-size: 35px;
     color: #494949;
     font-weight: 800;
-    line-height: 3em;
-    margin-left: 25mm;
-    letter-spacing: 10px;
+    line-height: 2em;
+    margin-left: 10mm;
+    letter-spacing: 0px;
     text-transform: uppercase;
 }
 
 .banner h3
 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 600;
     color: #fff;
     margin-left: 10mm;
-    line-height: 1em;
+    line-height: 0.7em;
     display: flex;
 
 }
 
-.btn /*about me do home*/
+.btn /*Github do home*/
 {
     position: relative;
     background: #49494981;
@@ -62,7 +62,6 @@
     margin-top: 150px;
     padding: 10px 30px;
     font-size: 35px;
-    text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 500;  
@@ -85,7 +84,7 @@ header /*contact do menu*/
 }
 header .logo /*potfolio do topo esquerdo*/
 {
-    color: #811870;
+    color: #494949;
     font-size: 35px;
     text-transform: uppercase;
     text-decoration:none;
