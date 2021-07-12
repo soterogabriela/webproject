@@ -1,12 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Literata:ital,wght@1,200&display=swap');
-
-*
+body
 {
     margin: 0em;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Literata', serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 .banner
@@ -15,11 +12,10 @@
     min-height: 100vh;
     background: url(projectimage.jpg);
     background-size:cover;
-    background-position:right;
+    background-position:center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 .banner h1
 {
@@ -30,9 +26,7 @@
     margin-left: 10mm;
     letter-spacing: 4px;
     display: flex;
-    
 }
-
 .banner h2
 {
     font-size: 35px;
@@ -44,7 +38,6 @@
     text-transform: uppercase;
     display: flex;
 }
-
 .banner h3
 {
     font-size: 1.25em;
@@ -53,9 +46,7 @@
     margin-left: 10mm;
     line-height: 0.7em;
     display: flex;
-
 }
-
 .btn /*Github do home*/
 {
     position: relative;
@@ -94,7 +85,6 @@ header .logo /*potfolio do topo esquerdo*/
     font-weight: bolder;
     letter-spacing: 10px;
     display: flex;
-   
 }
 .heading
 {
@@ -102,7 +92,6 @@ header .logo /*potfolio do topo esquerdo*/
     text-align: center;
     margin-bottom: 30px;
     color:#4949499d;
-    
 }
 .heading h1
 {
@@ -119,7 +108,6 @@ header .logo /*potfolio do topo esquerdo*/
     justify-content: space-between;
     color:#111;
     margin-left: 10mm;
-    
 }
 .contentTx
 {
@@ -138,7 +126,6 @@ header .logo /*potfolio do topo esquerdo*/
     margin-bottom: 10px;   
     color: #811870;
     display: flex;
-
 }
 .contentTx h5
 {
@@ -148,7 +135,6 @@ header .logo /*potfolio do topo esquerdo*/
     justify-content: space-between;
     color:#111;
     margin-left: 10mm;
-
 }
 img
 {
