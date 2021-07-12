@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Literata:ital,wght@1,200&display=swap');
 
 *
@@ -91,7 +92,6 @@ header .logo /*potfolio do topo esquerdo*/
     font-weight: bolder;
     letter-spacing: 10px;
    
-
 }
 .heading
 {
@@ -116,24 +116,24 @@ header .logo /*potfolio do topo esquerdo*/
     margin-left: 10mm;
     
 }
-.contentBx
+.contentTx
 {
     padding-right: 0px;
 }
-.contentBx h3 /*meu nome é gabriela*/
+.contentTx h3 /*meu nome é gabriela*/
 {
  font-size: 30px;
  margin-bottom: 10px;   
  color: #811870;
 }
-.contentBx h4
+.contentTx h4
 {
     font-size: 30px;
     margin-bottom: 10px;   
     color: #811870;
 
 }
-.contentBx h5
+.contentTx h5
 {
     font-size: 25px;
     font-weight: 600;
@@ -141,19 +141,10 @@ header .logo /*potfolio do topo esquerdo*/
     justify-content: space-between;
     color:#111;
     margin-left: 10mm;
-}
-.contact h3
-{
-font-size: 30px;
-color: #811870;
-}
-.w50
-{
-min-width: 10%;
+
 }
 img
 {
 max-width: 100%;
 margin-left: 2mm;
-
 }
