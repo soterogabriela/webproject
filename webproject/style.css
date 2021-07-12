@@ -20,8 +20,8 @@ body
 .banner h1
 {
     font-size: 1.4em;
-    color: #fff;
-    font-weight: 800;
+    color: #494949;
+    font-weight: 600;
     line-height: 0.7em;
     margin-left: 10mm;
     letter-spacing: 4px;
@@ -30,9 +30,9 @@ body
 .banner h2
 {
     font-size: 35px;
-    color: #494949;
-    font-weight: 800;
-    line-height: 2em;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1em;
     margin-left: 10mm;
     letter-spacing: 0px;
     text-transform: uppercase;
@@ -40,9 +40,9 @@ body
 }
 .banner h3
 {
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: 600;
-    color: #fff;
+    color:#111;
     margin-left: 10mm;
     line-height: 0.7em;
     display: flex;
